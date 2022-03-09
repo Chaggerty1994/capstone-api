@@ -1,0 +1,174 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Moo-Moo",
+            "email": "moomoo@gmail.com",
+            "userName": "Lil-Moo"
+        },
+
+        {
+            "id": 2,
+            "name": "Blinky",
+            "email": "Blinky@gmail.com",
+            "userName": "Lil-Blinky"
+        },
+
+        {
+            "id": 3,
+            "name": "Tiny",
+            "email": "Big-Tiny@gmail.com",
+            "userName": "Big-Tiny"
+        },
+
+        {
+            "id": 4,
+            "name": "Arizona Spice",
+            "email": "SpiceyBoi@gmail.com",
+            "userName": "Spicy-Boi"
+        },
+        
+        {
+            "id": 5,
+            "name": "Johnny G",
+            "email": "JohnnyG@gmail.com",
+            "userName": "Johnny-G"
+        },
+
+        {
+            "id": 6,
+            "name": "Milk",
+            "email": "LilMilky@gmail.com",
+            "userName": "Lil-Milky"
+        },
+
+        {
+            "id": 7,
+            "name": "Stew",
+            "email": "Stew@gmail.com",
+            "userName": "Lil-Milky"
+        }
+    ],
+
+    "tasks": [
+        {
+            "id": 1,
+            "userId": 1,
+            "description": "make a sandwhich",
+            "active": "true",
+            "timerId": 1 
+        },
+
+        {
+            "id": 2,
+            "userId": 1,
+            "description": "eat the sandwich",
+            "active": "true",
+            "timerId": 2 
+        }
+    ],
+
+
+    "teams": [
+        {
+            "id": 1
+           
+        },
+
+        {
+            "id": 2
+          
+        },
+
+        {
+            "id": 3
+           
+        },
+
+        {
+            "id": 4
+           
+        },
+
+        {
+            "id": 5
+           
+        }
+    ],
+
+    "teamMembers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "teamId": 1
+           
+        },
+
+        {
+            "id": 2,
+            "userId": 2,
+            "teamId": 2
+           
+        },
+
+        {
+            "id": 1,
+            "userId": 3,
+            "teamId": 1
+           
+        },
+
+        {
+            "id": 1,
+            "userId": 4,
+            "teamId": 2
+           
+        }
+
+        
+    ],
+
+    "timers": [
+        {
+            "id": 1,
+            "aLength": 20,
+            "bLength": 5
+    
+        },
+
+        {
+            "id": 2,
+            "aLength": 40,
+            "bLength": 5
+    
+        },
+
+        {
+            "id": 3,
+            "aLength": 50,
+            "bLength": 10
+    
+        },
+
+        {
+            "id": 4,
+            "aLength": 60,
+            "bLength": 10
+    
+        },
+
+        {
+            "id": 5,
+            "aLength": 60,
+            "bLength": 15
+    
+        }
+
+        
+
+        
+    ]
+
+
+
+}
