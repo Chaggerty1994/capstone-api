@@ -1,0 +1,421 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "name": "Moo-Moo",
+      "email": "moomoo@gmail.com",
+      "userName": "Lil-Moo"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "teamId": 2,
+      "email": "Danny@gmail.com",
+      "userName": "$DANNY$"
+    },
+    {
+      "id": 3,
+      "teamId": 3,
+      "name": "Tiny",
+      "email": "Big-Tiny@gmail.com",
+      "userName": "Big-Tiny"
+    },
+    {
+      "id": 4,
+      "teamId": 1,
+      "name": "THE SPICE",
+      "email": "SpicyBoi@gmail.com",
+      "userName": "Spicy-Boi"
+    },
+    {
+      "id": 5,
+      "teamId": 2,
+      "name": "Johnny G",
+      "email": "JohnnyG@gmail.com",
+      "userName": "Johnny-G"
+    },
+    {
+      "id": 6,
+      "teamId": 3,
+      "name": "Milk",
+      "email": "LilMilky@gmail.com",
+      "userName": "Milky"
+    },
+    {
+      "id": 7,
+      "teamId": 1,
+      "name": "Stew",
+      "email": "Stew@gmail.com",
+      "userName": "BeefStew"
+    },
+    {
+      "name": "DOODOO",
+      "teamId": 2,
+      "userName": "Yung-DOODOO",
+      "email": "DOODOO@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Stanky",
+      "teamId": 3,
+      "userName": "Lil-Stanky",
+      "email": "Stanky@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "MOOK",
+      "teamId": 1,
+      "userName": "MOOKY",
+      "email": "MOOKY@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Pinky",
+      "teamId": 2,
+      "userName": "Lil-Pinky",
+      "email": "Lil-Pinky@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "rock",
+      "teamId": 3,
+      "userName": "rockyRock",
+      "email": "rocky@gmail.com",
+      "id": 12
+    }
+  ],
+  "tasks": [
+    {
+      "userId": 10,
+      "description": "pick up my dry cleaning",
+      "active": false,
+      "timerId": 1,
+      "team": false,
+      "teamId": 1,
+      "id": 6,
+      "user": {
+        "name": "MOOK",
+        "teamId": 1,
+        "userName": "MOOKY",
+        "email": "MOOKY@gmail.com",
+        "id": 10
+      }
+    },
+    {
+      "userId": 10,
+      "description": "login screen",
+      "active": true,
+      "timerId": 5,
+      "team": false,
+      "teamId": 1,
+      "id": 7,
+      "user": {
+        "name": "MOOK",
+        "teamId": 1,
+        "userName": "MOOKY",
+        "email": "MOOKY@gmail.com",
+        "id": 10
+      }
+    },
+    {
+      "userId": 4,
+      "description": "timer A / B buttons",
+      "active": true,
+      "timerId": 2,
+      "team": false,
+      "teamId": 1,
+      "id": 8,
+      "user": {
+        "id": 4,
+        "teamId": 1,
+        "name": "Arizona Spice",
+        "email": "SpicyBoi@gmail.com",
+        "userName": "Spicy-Boi"
+      },
+      "timer": {
+        "id": 2,
+        "aLength": 40,
+        "bLength": 5
+      }
+    },
+    {
+      "userId": 4,
+      "description": "Task list scroll",
+      "active": true,
+      "timerId": 2,
+      "team": false,
+      "teamId": 1,
+      "id": 9,
+      "user": {
+        "id": 4,
+        "teamId": 1,
+        "name": "Arizona Spice",
+        "email": "SpicyBoi@gmail.com",
+        "userName": "Spicy-Boi"
+      }
+    },
+    {
+      "userId": 4,
+      "description": "group lunch 1 pm",
+      "active": true,
+      "timerId": 2,
+      "team": true,
+      "teamId": 1,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "description": "Standups 9 am",
+      "active": true,
+      "timerId": 2,
+      "team": true,
+      "teamId": 1,
+      "id": 11,
+      "timer": {
+        "id": 2,
+        "aLength": 40,
+        "bLength": 5
+      },
+      "user": {
+        "id": 4,
+        "teamId": 1,
+        "name": "THE SPICE",
+        "email": "SpicyBoi@gmail.com",
+        "userName": "Spicy-Boi"
+      }
+    },
+    {
+      "userId": 4,
+      "description": "take over the entire planet",
+      "active": true,
+      "timerId": 5,
+      "team": false,
+      "teamId": 1,
+      "id": 12,
+      "timer": {
+        "id": 5,
+        "aLength": 60,
+        "bLength": 15
+      },
+      "user": {
+        "id": 4,
+        "teamId": 1,
+        "name": "THE SPICE",
+        "email": "SpicyBoi@gmail.com",
+        "userName": "Spicy-Boi"
+      }
+    },
+    {
+      "userId": 4,
+      "description": "new personal task",
+      "active": true,
+      "timerId": 5,
+      "team": false,
+      "teamId": 1,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "description": "new team task",
+      "active": true,
+      "timerId": 4,
+      "team": true,
+      "teamId": 2,
+      "id": 14,
+      "timer": {
+        "id": 4,
+        "aLength": 60,
+        "bLength": 10
+      },
+      "user": {
+        "id": 2,
+        "teamId": 2,
+        "name": "DAN",
+        "email": "Dan@gmail.com",
+        "userName": "Danny"
+      }
+    },
+    {
+      "userId": 2,
+      "description": "another team task",
+      "active": true,
+      "timerId": 3,
+      "team": true,
+      "teamId": 2,
+      "id": 15,
+      "timer": {
+        "id": 3,
+        "aLength": 50,
+        "bLength": 10
+      },
+      "user": {
+        "id": 2,
+        "teamId": 2,
+        "name": "DAN",
+        "email": "Dan@gmail.com",
+        "userName": "Danny"
+      }
+    },
+    {
+      "userId": 2,
+      "description": "another personal task",
+      "active": true,
+      "timerId": 1,
+      "team": false,
+      "teamId": 2,
+      "id": 18,
+      "timer": {
+        "id": 1,
+        "aLength": 20,
+        "bLength": 5
+      }
+    },
+    {
+      "userId": 2,
+      "description": "personal task",
+      "active": true,
+      "timerId": 2,
+      "team": false,
+      "teamId": 2,
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "description": "new personal task",
+      "active": true,
+      "timerId": 2,
+      "team": false,
+      "teamId": 2,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "description": "new team task",
+      "active": true,
+      "timerId": 2,
+      "team": true,
+      "teamId": 2,
+      "id": 22
+    },
+    {
+      "userId": 2,
+      "description": "new personal task",
+      "active": true,
+      "timerId": 3,
+      "team": false,
+      "teamId": 2,
+      "id": 23
+    },
+    {
+      "userId": 8,
+      "description": "new personal task",
+      "active": true,
+      "timerId": 4,
+      "team": false,
+      "teamId": 2,
+      "id": 24
+    }
+  ],
+  "teams": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "teamId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "teamId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "teamId": 1
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "teamId": 2
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "teamId": 3
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "teamId": 1
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "teamId": 2
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "teamId": 3
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "teamId": 1
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "teamId": 2
+    }
+  ],
+  "timers": [
+    {
+      "id": 1,
+      "aLength": 20,
+      "bLength": 5
+    },
+    {
+      "id": 2,
+      "aLength": 40,
+      "bLength": 5
+    },
+    {
+      "id": 3,
+      "aLength": 50,
+      "bLength": 10
+    },
+    {
+      "id": 4,
+      "aLength": 60,
+      "bLength": 10
+    },
+    {
+      "id": 5,
+      "aLength": 60,
+      "bLength": 15
+    }
+  ]
+}
